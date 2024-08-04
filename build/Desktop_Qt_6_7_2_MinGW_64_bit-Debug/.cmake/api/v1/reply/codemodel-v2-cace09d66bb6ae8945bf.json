@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-8331b9bb53e390199e8b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "edytor_testo_Qlayout",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "edytor_testo_Qlayout::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-edytor_testo_Qlayout-Debug-14b1702629a5ee1ddda4.json",
+					"name" : "edytor_testo_Qlayout",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "edytor_testo_Qlayout_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-edytor_testo_Qlayout_autogen-Debug-9a174e778c0c4de9e728.json",
+					"name" : "edytor_testo_Qlayout_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "edytor_testo_Qlayout_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-edytor_testo_Qlayout_autogen_timestamp_deps-Debug-f7ed8b233f2c2135d77d.json",
+					"name" : "edytor_testo_Qlayout_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

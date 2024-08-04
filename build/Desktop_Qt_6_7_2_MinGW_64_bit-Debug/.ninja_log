@@ -1,0 +1,21 @@
+# ninja log v5
+4	511	7444851413771916	edytor_testo_Qlayout_autogen/timestamp	61133cdaaba6e268
+4	511	7444851413771916	edytor_testo_Qlayout_autogen/mocs_compilation.cpp	61133cdaaba6e268
+4	511	7444851413771916	C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/edytor_testo_Qlayout_autogen/timestamp	61133cdaaba6e268
+4	511	7444851413771916	C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/edytor_testo_Qlayout_autogen/mocs_compilation.cpp	61133cdaaba6e268
+521	2392	7444851433160151	CMakeFiles/edytor_testo_Qlayout.dir/widget.cpp.obj	b0bc0a69a4c4a1
+515	2424	7444851433486369	CMakeFiles/edytor_testo_Qlayout.dir/edytor_testo_Qlayout_autogen/mocs_compilation.cpp.obj	4059045a796a1225
+518	5254	7444851461789776	CMakeFiles/edytor_testo_Qlayout.dir/main.cpp.obj	706574274e256efb
+5256	5427	7444851463464590	edytor_testo_Qlayout.exe	332f2f614b747dbc
+23	534	7444852125343348	edytor_testo_Qlayout_autogen/timestamp	61133cdaaba6e268
+23	534	7444852125343348	edytor_testo_Qlayout_autogen/mocs_compilation.cpp	61133cdaaba6e268
+23	534	7444852125343348	C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/edytor_testo_Qlayout_autogen/timestamp	61133cdaaba6e268
+23	534	7444852125343348	C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/edytor_testo_Qlayout_autogen/mocs_compilation.cpp	61133cdaaba6e268
+544	2750	7444852148173858	CMakeFiles/edytor_testo_Qlayout.dir/widget.cpp.obj	b0bc0a69a4c4a1
+536	2857	7444852149250765	CMakeFiles/edytor_testo_Qlayout.dir/edytor_testo_Qlayout_autogen/mocs_compilation.cpp.obj	4059045a796a1225
+23	166	7444852293036709	edytor_testo_Qlayout_autogen/timestamp	61133cdaaba6e268
+23	166	7444852293036709	edytor_testo_Qlayout_autogen/mocs_compilation.cpp	61133cdaaba6e268
+23	166	7444852293036709	C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/edytor_testo_Qlayout_autogen/timestamp	61133cdaaba6e268
+23	166	7444852293036709	C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/edytor_testo_Qlayout_autogen/mocs_compilation.cpp	61133cdaaba6e268
+170	5386	7444852353555304	CMakeFiles/edytor_testo_Qlayout.dir/main.cpp.obj	706574274e256efb
+5386	5567	7444852355321853	edytor_testo_Qlayout.exe	332f2f614b747dbc

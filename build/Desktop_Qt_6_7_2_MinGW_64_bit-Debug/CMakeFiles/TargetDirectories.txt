@@ -1,0 +1,9 @@
+C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/edytor_testo_Qlayout.dir
+C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/edytor_testo_Qlayout_autogen_timestamp_deps.dir
+C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/edytor_testo_Qlayout_autogen.dir
