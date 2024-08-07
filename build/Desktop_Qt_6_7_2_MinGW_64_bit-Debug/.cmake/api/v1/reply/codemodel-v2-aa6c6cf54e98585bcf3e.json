@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-8331b9bb53e390199e8b.json",
+					"jsonFile" : "directory-.-Debug-dba8bde497d807bf7b2d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "edytor_testo_Qlayout::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-edytor_testo_Qlayout-Debug-14b1702629a5ee1ddda4.json",
+					"jsonFile" : "target-edytor_testo_Qlayout-Debug-550cedbec983f78edc82.json",
 					"name" : "edytor_testo_Qlayout",
 					"projectIndex" : 0
 				},

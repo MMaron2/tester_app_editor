@@ -762,3 +762,5 @@ C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qla
  mdp:D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
 C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/main.cpp
 C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/widget.cpp
+C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/file.h
+C:/Users/mateu/Desktop/CPP/biurowe_wysrywy/edytor_testo_Qlayout/edytor_testo_Qlayout/file.cpp
