@@ -2,7 +2,10 @@
 
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
+
 {
+
+
     layout = new QGridLayout;
     layout->setSpacing(0);
     layout->setContentsMargins(0,0,0,0);
@@ -54,7 +57,7 @@ Widget::Widget(QWidget *parent)
 
     // sidebar layout and widgets
     sidebarGridLayout = new QGridLayout;
-    fileExplorer = new QTreeView;
+    fileExplorer = new QListWidget;
     fileExplorerSearchBar = new QLineEdit("wyszukaj");
 
     sidebarGridLayout->addWidget(fileExplorerSearchBar);
@@ -84,7 +87,89 @@ Widget::Widget(QWidget *parent)
     mainContentGridLayout->addWidget(saveQuestionPushButton,2,1);
     content->setLayout(mainContentGridLayout);
 
+// slots connection
+
+    connect(openDatabaseButton,&QPushButton::clicked,
+            this, &Widget::on_openDatabaseButton);
+
+    connect(newDatabaseButton,&QPushButton::clicked,
+            this, &Widget::on_newDatabaseButton);
+
+    connect(addNewQuestionButton,&QPushButton::clicked,
+            this, &Widget::on_addNewQuestionButton);
+
+    connect(saveQuestionPushButton,&QPushButton::clicked,
+            this, &Widget::on_saveQuestionPushButton);
+
 }
+// slots
+
+void Widget::on_openDatabaseButton(){
+    QString path =  QFileDialog::getExistingDirectory(this,"Wybierz folder");
+    Widget::create_file(path);
+
+};
+
+void Widget::on_newDatabaseButton(){
+
+    QString dir_path = QFileDialog::getSaveFileName(this,"Stwórz folder");
+    if( dir_path.isEmpty()) return;
+
+    QDir dir(dir_path);
+
+    if( !dir.exists())
+    {
+
+        if(dir.mkpath(dir_path))
+        {
+            QMessageBox::information(this,"Message","Działa");
+        }
+    }else
+    {
+            QMessageBox::information(this,"Message","Nie działa");
+    }
+    create_file(dir_path);
+}
+
+void Widget::on_addNewQuestionButton(){
+}
+
+void Widget::on_saveQuestionPushButton(){
+
+}
+
+void Widget::create_file(QString path)
+{
+
+    QString line;
+    if( path.isEmpty()) return;
+     QDir dir(path);
+
+    QList<QFileInfo> fileList = dir.entryInfoList();
+
+     for(auto f : fileList)
+     {
+        QFile file(f.absoluteFilePath());
+         if(f.suffix()=="txt"){
+
+            if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+                qWarning("Could not open the file for reading!");
+                continue;
+            }
+
+            QTextStream out(&file);
+           //TEMP
+            line = out.readLine();
+            line = out.readLine();
+
+            file.close();
+         Widget::fileExplorer->addItem(line);
+         }
+        }
+
+
+     }
+
 
 Widget::~Widget() {
 

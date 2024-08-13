@@ -12,6 +12,11 @@
 #include <QLineEdit>
 #include <QTreeView>
 #include <QTableWidget>
+#include <QFileDialog>
+#include <QMessageBox>
+#include <QListWidget>
+#include "file.h"
+#include <vector>
 
 class Widget : public QWidget
 {
@@ -27,6 +32,10 @@ public:
 public slots:
 
 private slots:
+    void on_openDatabaseButton();
+    void on_newDatabaseButton();
+    void on_addNewQuestionButton();
+    void on_saveQuestionPushButton();
 
 private:
     // set base size of main window
@@ -43,7 +52,7 @@ private:
     QPushButton *newDatabaseButton;
 
     // sidebar widgets
-    QTreeView *fileExplorer;
+    QListWidget*fileExplorer;
     QLineEdit *fileExplorerSearchBar;
 
     // main content widgets
@@ -58,5 +67,11 @@ private:
     QGridLayout *sidebarGridLayout;
     QGridLayout *headerGridLayout;
     QGridLayout *mainContentGridLayout;
+
+
+    // temp value and function
+    std::vector<File> file_list;
+    void create_file(QString path);
+
 };
 #endif // WIDGET_H
